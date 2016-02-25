@@ -16,5 +16,9 @@ class Uber
   def selectprice
     @response["prices"][2]["estimate"]
   end
+
+  def distance
+    @response["prices"][0]["distance"]
+  end
   
 end
