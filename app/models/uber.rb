@@ -9,4 +9,8 @@ class Uber
     @response["prices"][0]["estimate"]
   end
 
+  def xlprice
+    @response["prices"][1]["estimate"]
+  end
+  
 end
