@@ -12,4 +12,8 @@ class Yelp
   def longitude
     @response["businesses"][0]["location"]["coordinate"]["longitude"]
   end
+
+  def rating
+    @response["businesses"][0]["rating"]
+  end
 end
