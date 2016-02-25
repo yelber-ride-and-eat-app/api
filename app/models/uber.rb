@@ -4,4 +4,9 @@ class Uber
   def initialize(response)
     @response = response
   end
+
+  def xprice
+    @response["prices"][0]["estimate"]
+  end
+
 end
