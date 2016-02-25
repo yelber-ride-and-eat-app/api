@@ -12,4 +12,11 @@ class UberTest < ActiveSupport::TestCase
 
     assert_equal "$9-12", u.xlprice
   end
+
+  test "retreive UberSELECT price range" do
+    u = Uber.new(JSON.parse(File.read("test/models/uber_test.json")))
+
+    assert_equal "$12-16", u.selectprice
+  end
+  
 end
