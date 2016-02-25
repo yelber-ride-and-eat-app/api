@@ -1,0 +1,57 @@
+{
+    "region": {
+        "span": {
+            "latitude_delta": 0.0,
+            "longitude_delta": 0.0
+        },
+        "center": {
+            "latitude": 36.0339433397368,
+            "longitude": -78.8919607517747
+        }
+    },
+    "total": 40,
+    "businesses": [
+        {
+            "is_claimed": false,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/la-superior-carniceria-durham-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=nqxSvVdbDcDdzKFcrkoKPQ",
+            "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 68,
+            "name": "La Superior Carniceria",
+            "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/la-superior-carniceria-durham-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=nqxSvVdbDcDdzKFcrkoKPQ",
+            "categories": [
+                [
+                    "Mexican",
+                    "mexican"
+                ]
+            ],
+            "phone": "9192209884",
+            "snippet_text": "I moved to Durham after having lived in Houston for the last 5 years.  One thing I was afraid of is that I would never find good mexican eats.  It became a...",
+            "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/mNmpC7nZWLyT-xc77aFhnA/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/8ltar-1H8uJBCihpW871qw/ms.jpg",
+            "display_phone": "+1-919-220-9884",
+            "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "la-superior-carniceria-durham-2",
+            "is_closed": false,
+            "location": {
+                "city": "Durham",
+                "display_address": [
+                    "3325 N Roxboro St",
+                    "Durham, NC 27704"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "27704",
+                "country_code": "US",
+                "address": [
+                    "3325 N Roxboro St"
+                ],
+                "coordinate": {
+                    "latitude": 36.0339433397368,
+                    "longitude": -78.8919607517747
+                },
+                "state_code": "NC"
+            }
+        }
+    ]
+}
