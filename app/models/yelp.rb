@@ -20,5 +20,9 @@ class Yelp
   def name
     @response["businesses"][0]["name"]
   end
-  
+
+  def category
+    @response["businesses"][0]["categories"][0][0]
+  end
+
 end

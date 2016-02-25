@@ -22,7 +22,7 @@ class YelpTest < ActiveSupport::TestCase
 
   test "retreive restaurant category" do
     y = Yelp.new(JSON.parse(File.read("test/models/yelp_test.json")))
-
+    
     assert_equal "Mexican", y.category
   end
 end
