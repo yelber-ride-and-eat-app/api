@@ -1,11 +1,5 @@
 require 'test_helper'
 
-# class Yelp
-#   def get_response
-#     @response = JSON.parse(File.read("./yelp_test.json"))
-#   end
-# end
-
 class YelpTest < ActiveSupport::TestCase
   test "retrieve latitude and longitude for restaurant" do
     y = Yelp.new(JSON.parse(File.read("test/models/yelp_test.json")))
