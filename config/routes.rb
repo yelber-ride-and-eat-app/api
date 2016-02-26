@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  
+  get 'yelber/show' => 'yelber#show'
+  get 'api/v1/find/:term' => 'yelber#show'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
