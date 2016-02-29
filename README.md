@@ -20,7 +20,9 @@ Query parameters:
 
 ## Sample response:
 
-`GET /api/v1/find?term=pizza&location=raleigh,nc`
+```bash
+GET /api/v1/find?term=pizza&location=raleigh,nc
+```
 ```json
 {
 "restaurant": {
