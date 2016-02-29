@@ -1,7 +1,7 @@
 class YelberController < ApplicationController
   def show
     y = Yelp.new(JSON.parse(File.read("test/models/yelp_test.json")))
-    u = Uber.new(latitude: "36.033", longitude: "-78.891")
+    u = Uber.new(latitude: y.latitude, longitude: y.longitude)
 
     render json: {restaurant:
                     {name: "#{y.name}",

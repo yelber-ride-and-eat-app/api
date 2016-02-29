@@ -27,6 +27,8 @@ gem 'httparty'
 
 gem 'json', '~> 1.8', '>= 1.8.3'
 
+gem 'yelp', require: 'yelp'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
