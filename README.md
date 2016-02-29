@@ -11,12 +11,14 @@ GET /api/v1/find
 ```
 
 Query parameters:
+
 | Name            | Type          | Description                          |
 | -------------   | ------------- | -------------                        |
-| `term`          | string        | describing the current food craving  |
-| `location`      | string        | city, state (e.g Raleigh, NC)        |
+| `term`          | string        | describing the current food craving (e.g "tacos"  |
+| `location`      | string        | city, state (e.g "Raleigh, NC")        |
 
-Sample query / response:
+Sample response:
+
 `GET /api/v1/find?term=pizza&location=raleigh,nc`
 ```json
 {
