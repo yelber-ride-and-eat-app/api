@@ -6,7 +6,8 @@ class YelberController < ApplicationController
     render json: {restaurant:
                     {name: "#{y.name}",
                      category: "#{y.category}",
-                     rating: "#{y.rating}"},
+                     rating: "#{y.rating}",
+                     reviews: "#{y.number_of_reviews}"},
                   trip:
                     {distance: "#{u.distance} miles",
                      rides: [

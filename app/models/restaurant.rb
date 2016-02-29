@@ -38,4 +38,9 @@ class Restaurant
     @response.businesses[0].categories[0][0]
   end
 
+  def number_of_reviews
+    return @sample_response["businesses"][0]["review_count"] if @sample_response
+    @response.businesses[0].review_count
+  end
+
 end
