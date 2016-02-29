@@ -1,4 +1,4 @@
-class Yelp
+class Restaurant
   attr_reader :response
 
   def initialize(response)
