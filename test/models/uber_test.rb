@@ -28,7 +28,7 @@ class UberTest < ActiveSupport::TestCase
   test "retrieve response given latitude and longitude" do
     u = Uber.new(latitude: "36.0339433397368", longitude: "-78.8919607517747")
 
-    assert_equal 3.53, u.distance
+    assert (u.distance > 3 && u.distance < 4)
   end
 
 end

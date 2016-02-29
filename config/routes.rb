@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  
+
   get 'yelber/show' => 'yelber#show'
-  get 'api/v1/find/:term' => 'yelber#show'
+  get 'api/v1/find' => 'yelber#show'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
