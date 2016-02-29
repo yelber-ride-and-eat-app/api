@@ -17,7 +17,8 @@ Query parameters:
 | `term`          | string        | describing the current food craving (e.g "tacos"  |
 | `location`      | string        | city, state (e.g "Raleigh, NC")        |
 
-Sample response:
+
+## Sample response:
 
 `GET /api/v1/find?term=pizza&location=raleigh,nc`
 ```json
